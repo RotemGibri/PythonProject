@@ -15,6 +15,7 @@ if __name__ ==  "__main__":
 
     print("welcome to our coffee machine")
     choose_coffee_type(coffee_typs)
+
     coffe = input ("is there coffee in the machine? y/n ")
     if coffe == "n" :
         print ("add coffee to the machine")
