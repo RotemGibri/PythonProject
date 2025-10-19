@@ -1,18 +1,24 @@
 
 
 def ex1():
+    numbers_in_range = []
     for x in range (12,25):
-        print ("print number " + str(x))
+        numbers_in_range.append(x)
+    print (f"numbers in range: {numbers_in_range}")
 
 def ex2():
+    odd_numbers = []
     for x in range (7,32):
         if x%2 == 1:
-            print ("odd number " + str(x))
+            odd_numbers.append(x)
+    print (f"odd number: {odd_numbers}")
 
 def ex3():
+    even_numbers = []
     for x in range(-20,10):
         if x % 2 == 0:
-            print("even number " + str(x))
+            even_numbers.append(x)
+    print(f"even number: {even_numbers} ")
 
 def ex4():
     for x in range (1,46):
