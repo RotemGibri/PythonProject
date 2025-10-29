@@ -240,10 +240,8 @@ if __name__ == "__main__":
             match is_game_over:
                 case "Y":
                     if winner is not None:
-                        # current_player = winner
                         print (f'{winner["name"]} you won. now you get to go first :) ')
-                    # else:
-                    #     set_current_player()
+
                     break
 
                 case "N":
